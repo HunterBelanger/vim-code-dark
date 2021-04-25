@@ -551,3 +551,12 @@ call <sid>hi('yamlConstant', s:cdBlue, {}, 'none', {})
 
 " Coc Explorer:
 call <sid>hi('CocExplorerIndentLine', s:cdCursorDark, {}, 'none', {})
+
+" C++:
+call <sid>hi('CTagsClass', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('CTagsStructure', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('CTagsNamespace', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('CTagsGlobalVariable', s:cdBlueGreen, {}, 'none', {})
+call <sid>hi('CTagsDefinedName ', s:cdBlue, {}, 'none', {})
+highlight def link CTagsFunction Function
+highlight def link CTagsMember Identifier
